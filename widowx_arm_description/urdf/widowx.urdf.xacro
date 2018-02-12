@@ -283,7 +283,9 @@
 
   <transmission name="tran1">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="joint_1"/>
+    <joint name="joint_1">
+	<hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
     <actuator name="motor1">
       <hardwareInterface>EffortJointInterface</hardwareInterface>
       <mechanicalReduction>1</mechanicalReduction>
@@ -292,7 +294,9 @@
 
  <transmission name="tran2">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="joint_2"/>
+    <joint name="joint_2">
+	<hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
     <actuator name="motor2">
       <hardwareInterface>EffortJointInterface</hardwareInterface>
       <mechanicalReduction>1</mechanicalReduction>
@@ -301,7 +305,9 @@
 
  <transmission name="tran3">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="joint_3"/>
+    <joint name="joint_3">
+	<hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
     <actuator name="motor3">
       <hardwareInterface>EffortJointInterface</hardwareInterface>
       <mechanicalReduction>1</mechanicalReduction>
@@ -310,7 +316,9 @@
 
  <transmission name="tran4">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="joint_4"/>
+    <joint name="joint_4">
+	<hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
     <actuator name="motor4">
       <hardwareInterface>EffortJointInterface</hardwareInterface>
       <mechanicalReduction>1</mechanicalReduction>
@@ -319,7 +327,9 @@
 
  <transmission name="tran5">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="joint_6"/>
+    <joint name="joint_5">
+	<hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
     <actuator name="motor5">
       <hardwareInterface>EffortJointInterface</hardwareInterface>
       <mechanicalReduction>1</mechanicalReduction>
@@ -328,7 +338,9 @@
 
  <transmission name="tran6">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="gripper_prismatic_joint_1"/>
+    <joint name="gripper_prismatic_joint_2">
+	<hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
     <actuator name="motor6">
       <hardwareInterface>EffortJointInterface</hardwareInterface>
       <mechanicalReduction>1</mechanicalReduction>

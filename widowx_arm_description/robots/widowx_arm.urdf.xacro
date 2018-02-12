@@ -1,5 +1,7 @@
 <?xml version="1.0" ?>
 <robot name="widowx_arm" xmlns:xacro="http://ros.org/wiki/xacro">
+        <xacro:include filename="$(find widowx_arm_description)/urdf/gazebo.urdf.xacro"/>
+
 	<xacro:include filename="$(find widowx_arm_description)/urdf/widowx.urdf.xacro"/>
 	
 	<link name="base_footprint">
