@@ -295,7 +295,7 @@ private:
   bool setGripper(float opening)
   {
     ROS_DEBUG("[pick and place] Set gripper opening to %f", opening);
-    if (gripper_.setJointValueTarget("gripper_joint", opening) == false)
+    if (gripper_.setJointValueTarget("gripper_joint", opening / 2) == false)
     {
       ROS_ERROR("[pick and place] Set gripper opening to %f failed", opening);
       return false;

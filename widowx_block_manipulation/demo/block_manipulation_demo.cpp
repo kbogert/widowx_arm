@@ -86,7 +86,8 @@ public:
   {
     // Load parameters
     nh_.param<std::string>("arm_link", arm_link, "/arm_link");
-    nh_.param<double>(gripper_param + "/max_opening", gripper_open, 0.042);
+    nh_.param<double>(gripper_param + "/max_opening", gripper_open, 0.0158);
+    gripper_open *= 2;
     nh_.param<double>("grip_tighten", gripper_tighten, 0.004);
     nh_.param<double>("z_up", z_up, 0.14);   // amount to lift during move
     nh_.param<double>("table_height", z_down, 0.0);
