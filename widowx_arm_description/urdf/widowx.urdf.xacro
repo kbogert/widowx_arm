@@ -338,7 +338,7 @@
 
  <transmission name="tran6">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="gripper_prismatic_joint_2">
+    <joint name="gripper_joint">
 	<hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="motor6">
