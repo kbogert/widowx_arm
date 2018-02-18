@@ -32,8 +32,9 @@ roslaunch widowx_block_manipulation block_sorting_demo.launch
 
 ## Simulating the WidowX arm in Gazebo
 
-Requires installation of the University of Patras Robotics Group Gazebo mimic joint plugin (clone the package: https://github.com/roboticsgroup/roboticsgroup_gazebo_plugins/tree/master/include/roboticsgroup_gazebo_plugins , compile with catkin_make)
+Requires installation of the University of Patras Robotics Group Gazebo mimic joint plugin (clone the package: https://github.com/roboticsgroup/roboticsgroup_gazebo_plugins , compile with catkin_make)
 
 roslaunch widowx_arm_gazebo widowx_arm.launch
 
 roslaunch widowx_arm_moveit_config widowx_arm_moveit_gazebo.launch
+
