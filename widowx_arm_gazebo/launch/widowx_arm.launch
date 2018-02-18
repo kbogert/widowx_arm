@@ -2,6 +2,10 @@
 <launch>
   <arg name="paused" default="false"/>
   <arg name="gui" default="true"/>
+
+  <!-- arbotix controller uses gripper_action namespace, this matches -->
+  <remap from="/gripper_controller/gripper_cmd" to="/gripper_controller/gripper_action"/> 
+
   
   <!-- startup simulated world -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
@@ -15,9 +19,6 @@
 
   <!-- push robot_description to factory and spawn robot in gazebo -->
   <node name="spawn_gazebo_model" pkg="gazebo_ros" type="spawn_model" args="-urdf -param robot_description -model robot -z 0.1" respawn="false" output="screen" />
-
-  <!-- arbotix controller uses gripper_action namespace, this matches -->
-  <remap from="/gripper_controller/gripper_action" to="/gripper_controller/gripper_cmd"/>
 
   <!-- controllers -->
   <rosparam file="$(find widowx_arm_gazebo)/controller/joint_state_controller.yaml" command="load"/>
