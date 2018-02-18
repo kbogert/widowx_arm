@@ -1,6 +1,6 @@
 # widowx_arm_dev
 
-ROS support for WidowX including MoveIt!, IKFast and Pick & Place / Sorting demo.
+ROS support for WidowX including MoveIt!, IKFast, Pick & Place / Sorting demo, and Gazebo support.
 
 Optionally using SR300 for pointcloud.
 
@@ -12,9 +12,9 @@ mkdir -p ~/widowx_arm/src
 
 cd ~/widowx_arm/src
 
-git clone https://github.com/Interbotix/widowx_arm.git .
+git clone https://github.com/kbogert/widowx_arm.git .
 
-git clone https://github.com/Interbotix/arbotix_ros.git -b turtlebot2i
+git clone https://github.com/kbogert/arbotix_ros.git -b turtlebot2i
 
 cd ~/widowx_arm
 
