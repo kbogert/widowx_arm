@@ -2,9 +2,9 @@ source: widowx_arm_gripper.yaml
 model:  parallel
 invert: false
 pad_width: 0.002
-min_opening: 0.002
-max_opening: 0.031
-neutral: 0.015
-tighten: .001
+min_opening: 0.001
+max_opening: 0.0158
+neutral: 0.008
+tighten: .0005
 center: 0
 joint: gripper_joint

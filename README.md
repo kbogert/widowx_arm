@@ -4,7 +4,7 @@ ROS support for WidowX including MoveIt!, IKFast and Pick & Place / Sorting demo
 
 Optionally using SR300 for pointcloud.
 
-Depending on interbotix/arbotix_ros/turtlebot2i [branch](https://github.com/Interbotix/arbotix_ros/tree/turtlebot2i) for gripper controller.
+Depending on kbogert/arbotix_ros/turtlebot2i [branch](https://github.com/kbogert/arbotix_ros/tree/turtlebot2i) for gripper controller.
 
 ## Quick Start:
 
