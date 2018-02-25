@@ -10,7 +10,6 @@
 
   </gazebo>
 
-  <xacro:macro name="ur_arm_gazebo" params="prefix"/>
 
 </robot>
 
