@@ -29,8 +29,8 @@
          </collision>
          <inertial>
             <origin xyz="0 0 0" rpy="0 0 0" />
-            <mass value="1" />
-            <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0" />
+            <mass value="0.75" />
+            <inertia ixx="0.00219844" ixy="0.0" ixz="0.0" iyy="0.00219844" iyz="0.0" izz="0.00338438" />
          </inertial>
       </link>
       <link name="${prefix}shoulder_link">
@@ -49,8 +49,8 @@
          </collision>
          <inertial>
             <origin xyz="0 0 0" rpy="0 0 0" />
-            <mass value="1" />
-            <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0" />
+            <mass value="0.08" />
+            <inertia ixx="0.00007227" ixy="0.0" ixz="0.0" iyy="0.00007227" iyz="0.0" izz="0.00012321" />
          </inertial>
       </link>
       <link name="${prefix}biceps_link">
@@ -69,8 +69,8 @@
          </collision>
          <inertial>
             <origin xyz="0 0 0" rpy="0 0 0" />
-            <mass value="1" />
-            <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0" />
+            <mass value="0.270" />
+            <inertia ixx="0.00091125" ixy="0.0" ixz="0.0" iyy="0.00078525" iyz="0.0" izz="0.00023850" />
          </inertial>
       </link>
       <link name="${prefix}forearm_link">
@@ -89,8 +89,8 @@
          </collision>
          <inertial>
             <origin xyz="0 0 0" rpy="0 0 0" />
-            <mass value="1" />
-            <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+            <mass value="0.130" />
+            <inertia ixx="0.00030442" ixy="0.0" ixz="0.0" iyy="0.00029467" iyz="0.0" izz="0.00004442"/>
          </inertial>
       </link>
       <link name="${prefix}wrist_1_link">
@@ -109,8 +109,8 @@
          </collision>
          <inertial>
             <origin xyz="0 0 0" rpy="0 0 0" />
-            <mass value="1" />
-            <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0" />
+            <mass value="0.085" />
+            <inertia ixx="0.00006304" ixy="0.0" ixz="0.0" iyy="0.00005667" iyz="0.0" izz="0.00002904" />
          </inertial>
       </link>
       <link name="${prefix}wrist_2_link">
@@ -129,8 +129,8 @@
          </collision>
          <inertial>
             <origin xyz="0 0 0" rpy="0 0 0" />
-            <mass value="1" />
-            <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0" />
+            <mass value="0.065" />
+            <inertia ixx="0.00002708" ixy="0.0" ixz="0.0" iyy="0.00001842" iyz="0.0" izz="0.00001842" />
          </inertial>
       </link>
       <!--link name="${prefix}gripper_rail_link">
