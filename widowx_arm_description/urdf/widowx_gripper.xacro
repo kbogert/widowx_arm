@@ -83,4 +83,61 @@
       <axis xyz="0 1 0" />
       <limit lower="0.001" upper="0.0158" effort="0" velocity="0.5" />
    </joint>
+
+      <gazebo reference="${prefix}gripper_1_link">
+
+        <collision><surface>
+                <bounce><threshold>100000</threshold></bounce>
+        <friction>
+        <ode>
+                <mu>10000000</mu>
+                <mu2>10000000</mu2>
+                <slip1>0.0</slip1>
+                <slip2>0.0</slip2>
+        </ode>
+        <bullet>
+                <friction>10000000</friction>
+                <friction2>10000000</friction2>
+        </bullet>
+
+        </friction>
+
+        <contact>
+                <ode><kd>100</kd></ode>
+                <bullet><kp>1000000000</kp><kd>100</kd><soft_erp>0.20</soft_erp></bullet>
+        </contact>
+        </surface></collision>
+
+
+      </gazebo>
+
+      <gazebo reference="${prefix}gripper_2_link">
+
+        <collision><surface>
+                <bounce><threshold>100000</threshold></bounce>
+        <friction>
+        <ode>
+                <mu>10000000</mu>
+                <mu2>10000000</mu2>
+                <slip1>0.0</slip1>
+                <slip2>0.0</slip2>
+        </ode>
+        <bullet>
+                <friction>10000000</friction>
+                <friction2>10000000</friction2>
+        </bullet>
+
+        </friction>
+
+        <contact>
+                <ode><kd>100</kd></ode>
+                <bullet><kp>1000000000</kp><kd>100</kd><soft_erp>0.20</soft_erp></bullet>
+        </contact>
+        </surface></collision>
+
+
+      </gazebo>
+
+
+
 </robot>
